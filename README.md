@@ -2,11 +2,11 @@
 
 An interactive Machine Learning application that predicts telecom customer churn using the **K-Nearest Neighbors (KNN)** algorithm. Built with Python, Scikit-learn and Streamlit, this project helps identify customers who are likely to discontinue their subscriptions.
 
-## 🚀 Live Application
+## Live Application
 
 **[Launch Customer Churn Analytics](https://customer-churn-analytics-k-nearest-neighbors.streamlit.app/)**
 
-## 📌 Project Overview
+## Project Overview
 
 Customer churn is a major challenge for subscription-based businesses. Losing customers can negatively impact revenue and long-term business growth.
 
@@ -14,7 +14,7 @@ The objective of this project is to develop a machine learning model that predic
 
 The application provides an interactive dashboard where users can enter customer details and receive a churn prediction along with the estimated probability.
 
-## ✨ Key Features
+## Key Features
 
 - **Customer Churn Prediction:** Predict whether a customer is likely to leave the service.
 - **Probability Estimation:** Display estimated churn and retention probabilities.
@@ -22,7 +22,7 @@ The application provides an interactive dashboard where users can enter customer
 - **Model Performance:** Explore classification metrics and model evaluation results.
 - **Threshold Optimization:** Uses a classification threshold of 0.40 to improve churn detection.
 
-## 🧠 Machine Learning Approach
+## Machine Learning Approach
 
 **Algorithm:** K-Nearest Neighbors (KNN)
 
@@ -40,7 +40,7 @@ KNN is a supervised machine learning algorithm that classifies a new observation
 8. Model serialization using Joblib.
 9. Deployment using Streamlit Community Cloud.
 
-## 📈 Model Performance
+## Model Performance
 
 The model was evaluated using a test dataset of 1,409 observations.
 
@@ -67,7 +67,7 @@ At a threshold of 0.40:
 | Actual No Churn | 745 | 291 |
 | Actual Churn | 97 | 276 |
 
-## 🛠️ Technology Stack
+## Technology Stack
 
 | Category | Technologies |
 |---|---|
@@ -79,7 +79,7 @@ At a threshold of 0.40:
 | Web Application | Streamlit |
 | Version Control | Git, GitHub |
 
-## 📂 Project Structure
+## Project Structure
 
 ```text
 Customer-Churn-Analytics/
@@ -92,7 +92,7 @@ Customer-Churn-Analytics/
 └── README.md
 ```
 
-## 💻 Run Locally
+## Run Locally
 
 Follow these steps to run the application on your local machine.
 
@@ -122,7 +122,7 @@ streamlit run app.py
 
 The application will open in your browser.
 
-## 🔮 Future Improvements
+## Future Improvements
 
 - Compare KNN with Logistic Regression, Decision Trees and Random Forest.
 - Perform hyperparameter optimization using GridSearchCV.
